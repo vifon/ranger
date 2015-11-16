@@ -127,11 +127,14 @@ def outdated_configs(used_versions, required_versions):
     """Return an iterable of tuples (file, used_version, required_version)."""
     for config in used_versions.keys():
         used_version = used_versions[config]
-        required_version = Version(required_versions[config])
-        if used_version is not None and used_version < required_version:
-            yield (config,
-                   used_version,
-                   required_version)
+        if used_versions[config] is not None:
+            for required_version, reason in required_versions[config]:
+                required_version = Version(required_version)
+                if used_versions[config] < required_version:
+                    yield (config,
+                           used_versions[config],
+                           required_version,
+                           reason)
 
 
 def perform_check(config_directory, required_versions):

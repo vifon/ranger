@@ -259,7 +259,11 @@ def load_settings(fm, clean):
 
         outdated = None
         for outdated in version_check.perform_check(ranger.arg.confdir, required_configs):
-            sys.stderr.write("Outdated {0}:\t{1} < {2}\n".format(*outdated))
+            reason = outdated[3]
+            if reason is None:
+                sys.stderr.write("Outdated {0}:\t{1} < {2}\n".format(*outdated))
+            else:
+                sys.stderr.write("Outdated {0}:\t{1} < {2}\t: {3}\n".format(*outdated))
         if outdated and not ranger.arg.force_outdated:
             sys.stderr.write("Use --force-outdated to force ranger to launch.\n")
             raise SystemExit()
