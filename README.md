@@ -3,6 +3,10 @@ ranger 1.9.2
 
 [![Build Status](https://travis-ci.org/ranger/ranger.svg?branch=master)](https://travis-ci.org/ranger/ranger)
 
+<a href="https://repology.org/metapackage/ranger/versions">
+  <img src="https://repology.org/badge/latest-versions/ranger.svg" alt="latest packaged version(s)">
+</a>
+
 ranger is a console file manager with VI key bindings.  It provides a
 minimalistic and nice curses interface with a view on the directory hierarchy.
 It ships with `rifle`, a file launcher that is good at automatically finding
@@ -87,6 +91,17 @@ Installing
 ----------
 Use the package manager of your operating system to install ranger.
 Note that ranger can be started without installing by simply running `ranger.py`.
+
+<details>
+  <summary>
+    <a href="https://repology.org/metapackage/ranger/versions">
+      <img src="https://repology.org/badge/tiny-repos/ranger.svg" alt="Packaging status">
+    </a>
+  </summary>
+  <a href="https://repology.org/metapackage/ranger/versions">
+    <img src="https://repology.org/badge/vertical-allrepos/ranger.svg" alt="Packaging status">
+  </a>
+</details>
 
 To install ranger manually:
 ```
