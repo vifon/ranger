@@ -94,9 +94,11 @@ Note that ranger can be started without installing by simply running `ranger.py`
 <details>
   <summary>
     Check the currently-available version:
-	<a href="https://repology.org/metapackage/ranger/versions">
-		<img src="https://repology.org/badge/tiny-repos/ranger.svg" alt="Packaging status">
-	</a>
+	<sub>
+		<a href="https://repology.org/metapackage/ranger/versions">
+			<img src="https://repology.org/badge/tiny-repos/ranger.svg" alt="Packaging status">
+		</a>
+	</sub>
   </summary>
   <a href="https://repology.org/metapackage/ranger/versions">
     <img src="https://repology.org/badge/vertical-allrepos/ranger.svg" alt="Packaging status">
