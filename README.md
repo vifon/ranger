@@ -89,11 +89,11 @@ Optional, for enhanced file previews (with `scope.sh`):
 Installing
 ----------
 Use the package manager of your operating system to install ranger.
-Note that ranger can be started without installing by simply running `ranger.py`.
+You can also install ranger through PyPI: ```pip install ranger```.
 
 <details>
   <summary>
-    Check current version
+    Check current version:
     <sub>
       <a href="https://repology.org/metapackage/ranger/versions">
         <img src="https://repology.org/badge/tiny-repos/ranger.svg" alt="Packaging status">
@@ -105,7 +105,7 @@ Note that ranger can be started without installing by simply running `ranger.py`
   </a>
 </details>
 
----
+### Installing from a clone
 
 To install ranger manually:
 ```
@@ -119,6 +119,8 @@ sudo python setup.py install --optimize=1 --record=install_log.txt
 
 This also saves a list of all installed files to `install_log.txt`, which you can
 use to uninstall ranger.
+
+Note that ranger can be started without installing by simply running `ranger.py`.
 
 
 Getting Started
