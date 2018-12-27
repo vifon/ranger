@@ -106,6 +106,7 @@ You can also install ranger through PyPI: ```pip install ranger```.
 </details>
 
 ### Installing from a clone
+Note that you don't *have* to install ranger; you can simply run `ranger.py`.
 
 To install ranger manually:
 ```
@@ -120,7 +121,6 @@ sudo python setup.py install --optimize=1 --record=install_log.txt
 This also saves a list of all installed files to `install_log.txt`, which you can
 use to uninstall ranger.
 
-Note that ranger can be started without installing by simply running `ranger.py`.
 
 
 Getting Started
