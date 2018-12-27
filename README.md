@@ -102,6 +102,7 @@ Note that ranger can be started without installing by simply running `ranger.py`
     <img src="https://repology.org/badge/vertical-allrepos/ranger.svg" alt="Packaging status">
   </a>
 </details>
+<br>
 
 To install ranger manually:
 ```
